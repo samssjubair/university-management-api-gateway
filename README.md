@@ -1,5 +1,8 @@
 # University Management API Gateway
 
+- Auth Service Github URL: https://github.com/samssjubair/university-management-auth-service
+- Core Service Github URL: https://github.com/samssjubair/university-management-core-service
+
 ### Project Overview:
 
 Welcome to the University Management API Gateway project, a tutorial project designed to help you level up your web development skills as part of the "Programming Hero Next Level Web Development Course."
