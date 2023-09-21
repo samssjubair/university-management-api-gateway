@@ -12,10 +12,15 @@ import { roomRoutes } from '../modules/room/room.routes';
 import { buildingRoutes } from '../modules/building/building.routes';
 import { academicDepartmentRoutes } from '../modules/academicDepartment/academicDepartment.routes';
 import { academicFacultyRoutes } from '../modules/academicFaculty/academicFaculty.routes';
+import { userRoutes } from '../modules/user/user.routes';
 
 const router = express.Router();
 
 const moduleRoutes = [
+  {
+    path: '/users',
+    routes: userRoutes
+  },
   {
     path: '/academic-faculties',
     routes: academicFacultyRoutes
